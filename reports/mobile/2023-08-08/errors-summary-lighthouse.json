@@ -1,1 +1,10 @@
-{}
+{
+  "html-has-lang": 30,
+  "heading-order": 23,
+  "listitem": 10,
+  "list": 7,
+  "color-contrast": 2,
+  "duplicate-id-aria": 1,
+  "label": 1,
+  "link-name": 1
+}

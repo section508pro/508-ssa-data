@@ -1,0 +1,353 @@
+[
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1270-HTML",
+            "path": "1,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 24337,
+              "left": 0,
+              "right": 980,
+              "width": 980,
+              "height": 24337
+            },
+            "snippet": "<html>",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1271-UL",
+            "path": "1,HTML,3,BODY,100,DIV,0,UL",
+            "selector": "body > div.pBullet > ul.pBullet",
+            "boundingRect": {
+              "top": 17139,
+              "bottom": 17387,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 248
+            },
+            "snippet": "<ul class=\"pBullet\">",
+            "nodeLabel": "To maintain consistency with prior hypothetical steady workers11 while simplify…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-548-A",
+                  "path": "1,HTML,3,BODY,100,DIV,0,UL,0,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 17139,
+                    "bottom": 17139,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp142796\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1272-DIV",
+                  "path": "1,HTML,3,BODY,100,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pBullet > ul.pBullet > div.pBullet",
+                  "boundingRect": {
+                    "top": 17139,
+                    "bottom": 17235,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 96
+                  },
+                  "snippet": "<div class=\"pBullet\">",
+                  "nodeLabel": "To maintain consistency with prior hypothetical steady workers11 while simplify…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-550-A",
+                  "path": "1,HTML,3,BODY,100,DIV,0,UL,2,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 17243,
+                    "bottom": 17243,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp142800\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1273-UL",
+            "path": "1,HTML,3,BODY,109,DIV,0,UL",
+            "selector": "body > div.pBullet > ul.pBullet",
+            "boundingRect": {
+              "top": 18234,
+              "bottom": 18386,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 152
+            },
+            "snippet": "<ul class=\"pBullet\">",
+            "nodeLabel": "The preliminary adjusted scaled factors for ages 21 through 64, by\nThe ratio of…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-575-A",
+                  "path": "1,HTML,3,BODY,109,DIV,0,UL,0,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 18234,
+                    "bottom": 18234,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp142809\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1274-DIV",
+                  "path": "1,HTML,3,BODY,109,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pBullet > ul.pBullet > div.pBullet",
+                  "boundingRect": {
+                    "top": 18234,
+                    "bottom": 18330,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 96
+                  },
+                  "snippet": "<div class=\"pBullet\">",
+                  "nodeLabel": "The preliminary adjusted scaled factors for ages 21 through 64, by"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-576-A",
+                  "path": "1,HTML,3,BODY,109,DIV,0,UL,2,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 18338,
+                    "bottom": 18338,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp142810\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1275-LI",
+            "path": "1,HTML,3,BODY,100,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 17139,
+              "bottom": 17235,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 96
+            },
+            "snippet": "<li>",
+            "nodeLabel": "To maintain consistency with prior hypothetical steady workers11 while simplify…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1276-LI",
+            "path": "1,HTML,3,BODY,100,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 17243,
+              "bottom": 17387,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 144
+            },
+            "snippet": "<li>",
+            "nodeLabel": "To make the calculation of the hypothetical scaled worker factors independent o…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1277-LI",
+            "path": "1,HTML,3,BODY,109,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 18234,
+              "bottom": 18330,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 96
+            },
+            "snippet": "<li>",
+            "nodeLabel": "The preliminary adjusted scaled factors for ages 21 through 64, by",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1278-LI",
+            "path": "1,HTML,3,BODY,109,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 18338,
+              "bottom": 18386,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "The ratio of 1.187 shown in tables 5 and 6.",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

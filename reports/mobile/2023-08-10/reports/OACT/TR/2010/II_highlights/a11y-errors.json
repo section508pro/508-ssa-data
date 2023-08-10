@@ -1,0 +1,54 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-46-DIV",
+            "path": "2,HTML,1,BODY,4,DIV",
+            "selector": "body > div.WebWorks_Breadcrumbs",
+            "boundingRect": {
+              "top": 168,
+              "bottom": 208,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 40
+            },
+            "snippet": "<div class=\"WebWorks_Breadcrumbs\" style=\"text-align: left;\">",
+            "nodeLabel": "II. OVERVIEW",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 26.1pt (34.8207px), font weight: normal). Expected contrast ratio of 3:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,240 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-104-H4",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,2,H4",
+            "selector": "div#content > div.row-12 > div.column-9 > h4.center",
+            "boundingRect": {
+              "top": 286,
+              "bottom": 310,
+              "left": 241,
+              "right": 940,
+              "width": 699,
+              "height": 24
+            },
+            "snippet": "<h4 class=\"center\">",
+            "nodeLabel": "Related information",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-105-UL",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,10,UL",
+            "selector": "div#content > div.row-12 > div.column-9 > ul",
+            "boundingRect": {
+              "top": 653,
+              "bottom": 739,
+              "left": 241,
+              "right": 940,
+              "width": 699,
+              "height": 86
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Description of the methods used in the long range projections that determine th…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-34-A",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,10,UL,1,A",
+                  "selector": "div.row-12 > div.column-9 > ul > a",
+                  "boundingRect": {
+                    "top": 657,
+                    "bottom": 673,
+                    "left": 524,
+                    "right": 679,
+                    "width": 156,
+                    "height": 16
+                  },
+                  "snippet": "<a href=\"documentation_2012.pdf\" auto-tracked=\"true\">",
+                  "nodeLabel": "long range projections"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-106-P",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,10,UL,3,P",
+                  "selector": "div.row-12 > div.column-9 > ul > p",
+                  "boundingRect": {
+                    "top": 701,
+                    "bottom": 701,
+                    "left": 281,
+                    "right": 940,
+                    "width": 659,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div.row-12 > div.column-9 > ul > p"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-107-UL",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,13,UL",
+            "selector": "div#content > div.row-12 > div.column-9 > ul",
+            "boundingRect": {
+              "top": 791,
+              "bottom": 877,
+              "left": 241,
+              "right": 940,
+              "width": 699,
+              "height": 86
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Summary of the latest report for the Social Security and Medicare programs (als…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-108-P",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,13,UL,1,P",
+                  "selector": "div.row-12 > div.column-9 > ul > p",
+                  "boundingRect": {
+                    "top": 839,
+                    "bottom": 839,
+                    "left": 281,
+                    "right": 940,
+                    "width": 659,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div.row-12 > div.column-9 > ul > p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-LI",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,16,LI",
+            "selector": "div#content > div.row-12 > div.column-9 > li",
+            "boundingRect": {
+              "top": 891,
+              "bottom": 977,
+              "left": 241,
+              "right": 940,
+              "width": 699,
+              "height": 86
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Special reports on OASI or DI Trust Fund assets dropping below 20 percent of an…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
