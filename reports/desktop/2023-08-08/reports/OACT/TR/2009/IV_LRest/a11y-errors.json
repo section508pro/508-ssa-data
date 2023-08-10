@@ -1,0 +1,208 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3343-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,33,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,A,0,IMG",
+            "selector": "td#tc219013 > div.CellBodyFigure > a > img#346847",
+            "boundingRect": {
+              "top": 4247,
+              "bottom": 4535,
+              "left": 249,
+              "right": 681,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"346847\" class=\"Default\" src=\"images/IV_LRest_IVB1.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figIVB1.html\">",
+            "nodeLabel": "td#tc219013 > div.CellBodyFigure > a > img#346847",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3344-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,50,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,A,0,IMG",
+            "selector": "td#tc179674 > div.CellBodyFigure > a > img#341900",
+            "boundingRect": {
+              "top": 7014,
+              "bottom": 7302,
+              "left": 249,
+              "right": 681,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"341900\" class=\"Default\" src=\"images/IV_LRest_IVB2.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figIVB2.html\">",
+            "nodeLabel": "td#tc179674 > div.CellBodyFigure > a > img#341900",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3345-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,76,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,A,0,IMG",
+            "selector": "td#tc266194 > div.CellBodyFigure > a > img#342317",
+            "boundingRect": {
+              "top": 9198,
+              "bottom": 9486,
+              "left": 249,
+              "right": 681,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"342317\" class=\"Default\" src=\"images/IV_LRest_IVB3.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figIVB3.html\">",
+            "nodeLabel": "td#tc266194 > div.CellBodyFigure > a > img#342317",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3346-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,145,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,A,0,IMG",
+            "selector": "td#tc148833 > div.CellBodyFigure > a > img#341915",
+            "boundingRect": {
+              "top": 16014,
+              "bottom": 16302,
+              "left": 249,
+              "right": 681,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"341915\" class=\"Default\" src=\"images/IV_LRest_IVB4.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figIVB4.html\">",
+            "nodeLabel": "td#tc148833 > div.CellBodyFigure > a > img#341915",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3347-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,166,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,A,0,IMG",
+            "selector": "td#tc319963 > div.CellBodyFigure > a > img#341920",
+            "boundingRect": {
+              "top": 18048,
+              "bottom": 18336,
+              "left": 249,
+              "right": 681,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"341920\" class=\"Default\" src=\"images/IV_LRest_IVB5.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figIVB5.html\">",
+            "nodeLabel": "td#tc319963 > div.CellBodyFigure > a > img#341920",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2232-A",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,65,TABLE,1,TBODY,26,TR,6,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td#tc335699 > div.CellBody > span.Superscript > a",
+            "boundingRect": {
+              "top": 8916,
+              "bottom": 8927,
+              "left": 653,
+              "right": 653,
+              "width": 0,
+              "height": 11
+            },
+            "snippet": "<a href=\"#335694\" name=\"335699\">",
+            "nodeLabel": "td#tc335699 > div.CellBody > span.Superscript > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2234-A",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,65,TABLE,1,TBODY,26,TR,7,TD,0,DIV,0,SPAN,0,A",
+            "selector": "td#tc335704 > div.CellBody > span.Superscript > a",
+            "boundingRect": {
+              "top": 8916,
+              "bottom": 8927,
+              "left": 783,
+              "right": 783,
+              "width": 0,
+              "height": 11
+            },
+            "snippet": "<a href=\"#335694\" name=\"335704\">",
+            "nodeLabel": "td#tc335704 > div.CellBody > span.Superscript > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

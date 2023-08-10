@@ -1,0 +1,76 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-49-IMG",
+            "path": "2,HTML,1,BODY,18,DIV,0,IMG",
+            "selector": "body > div > img",
+            "boundingRect": {
+              "top": 2184,
+              "bottom": 2234,
+              "left": 8,
+              "right": 170,
+              "width": 162,
+              "height": 50
+            },
+            "snippet": "<img src=\"images/alice_sig.gif\" height=\"50\" width=\"162\" border=\"0\" hspace=\"0\" vspace=\"0\">",
+            "nodeLabel": "body > div > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-50-IMG",
+            "path": "2,HTML,1,BODY,24,DIV,0,IMG",
+            "selector": "body > div > img",
+            "boundingRect": {
+              "top": 2410,
+              "bottom": 2485,
+              "left": 8,
+              "right": 208,
+              "width": 200,
+              "height": 75
+            },
+            "snippet": "<img src=\"images/goss_sig.gif\" height=\"75\" width=\"200\" border=\"0\" hspace=\"0\" vspace=\"0\">",
+            "nodeLabel": "body > div > img",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

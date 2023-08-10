@@ -1,0 +1,152 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3240-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,37,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.CellBodyFigure > span > a > img#237315",
+            "boundingRect": {
+              "top": 3176,
+              "bottom": 3464,
+              "left": 261,
+              "right": 693,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"237315\" class=\"Default\" src=\"images/V_programatic_VC1.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figVC1.html\">",
+            "nodeLabel": "div.CellBodyFigure > span > a > img#237315",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3241-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,40,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.CellBodyFigure > span > a > img#237325",
+            "boundingRect": {
+              "top": 3562,
+              "bottom": 3850,
+              "left": 261,
+              "right": 693,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"237325\" class=\"Default\" src=\"images/V_programatic_VC2.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figVC2.html\">",
+            "nodeLabel": "div.CellBodyFigure > span > a > img#237325",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3242-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,119,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.CellBodyFigure > span > a > img#237280",
+            "boundingRect": {
+              "top": 12604,
+              "bottom": 12892,
+              "left": 261,
+              "right": 693,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"237280\" class=\"Default\" src=\"images/V_programatic_VC3.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figVC3.html\">",
+            "nodeLabel": "div.CellBodyFigure > span > a > img#237280",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3243-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,127,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.CellBodyFigure > span > a > img#237290",
+            "boundingRect": {
+              "top": 13459,
+              "bottom": 13747,
+              "left": 261,
+              "right": 693,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"237290\" class=\"Default\" src=\"images/V_programatic_VC4.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figVC4.html\">",
+            "nodeLabel": "div.CellBodyFigure > span > a > img#237290",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3244-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,133,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.CellBodyFigure > span > a > img#237300",
+            "boundingRect": {
+              "top": 14180,
+              "bottom": 14468,
+              "left": 261,
+              "right": 693,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"237300\" class=\"Default\" src=\"images/V_programatic_VC5.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figVC5.html\">",
+            "nodeLabel": "div.CellBodyFigure > span > a > img#237300",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-3245-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,141,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.CellBodyFigure > span > a > img#237310",
+            "boundingRect": {
+              "top": 16773,
+              "bottom": 17061,
+              "left": 261,
+              "right": 693,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"237310\" class=\"Default\" src=\"images/V_programatic_VC6.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figVC6.html\">",
+            "nodeLabel": "div.CellBodyFigure > span > a > img#237310",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 6
+  }
+]

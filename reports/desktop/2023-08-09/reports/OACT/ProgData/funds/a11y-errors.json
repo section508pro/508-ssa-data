@@ -1,0 +1,333 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-108-H4",
+            "path": "1,HTML,1,BODY,1,DIV,12,SSA-FOOTER,a,#document-fragment,2,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.grid-col-12 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 722,
+              "bottom": 745,
+              "left": 224,
+              "right": 403,
+              "width": 179,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\" onclick=\"\">",
+            "nodeLabel": "Support",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-UL",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,2,DIV,1,UL",
+            "selector": "div.row-12 > div.column-9 > div.row-12 > ul",
+            "boundingRect": {
+              "top": 278,
+              "bottom": 458,
+              "left": 441,
+              "right": 1154,
+              "width": 714,
+              "height": 179
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Trust fund tables\n\nCalendar year data\nOASI Trust Fund, 1937 and later\nDI Trust …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-110-B",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,2,DIV,1,UL,0,B",
+                  "selector": "div.column-9 > div.row-12 > ul > b",
+                  "boundingRect": {
+                    "top": 280,
+                    "bottom": 299,
+                    "left": 481,
+                    "right": 616,
+                    "width": 135,
+                    "height": 19
+                  },
+                  "snippet": "<b>",
+                  "nodeLabel": "Trust fund tables"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-111-P",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,2,DIV,1,UL,1,P",
+                  "selector": "div.column-9 > div.row-12 > ul > p",
+                  "boundingRect": {
+                    "top": 302,
+                    "bottom": 302,
+                    "left": 481,
+                    "right": 1154,
+                    "width": 674,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div.column-9 > div.row-12 > ul > p"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-112-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,2,DIV,1,UL,3,UL",
+                  "selector": "div.column-9 > div.row-12 > ul > ul",
+                  "boundingRect": {
+                    "top": 345,
+                    "bottom": 417,
+                    "left": 481,
+                    "right": 1154,
+                    "width": 674,
+                    "height": 72
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "OASI Trust Fund, 1937 and later\nDI Trust Fund, 1957 and later\nOASI and DI Trust…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-113-UL",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,4,DIV,1,UL",
+            "selector": "div.row-12 > div.column-9 > div.row-12 > ul",
+            "boundingRect": {
+              "top": 492,
+              "bottom": 605,
+              "left": 441,
+              "right": 1154,
+              "width": 714,
+              "height": 113
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Investment data\n\nInvestment transactions\nInvestment holdings\nInterest rates on …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-114-B",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,4,DIV,1,UL,0,B",
+                  "selector": "div.column-9 > div.row-12 > ul > b",
+                  "boundingRect": {
+                    "top": 494,
+                    "bottom": 513,
+                    "left": 481,
+                    "right": 608,
+                    "width": 128,
+                    "height": 19
+                  },
+                  "snippet": "<b>",
+                  "nodeLabel": "Investment data"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-115-P",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,4,DIV,1,UL,1,P",
+                  "selector": "div.column-9 > div.row-12 > ul > p",
+                  "boundingRect": {
+                    "top": 516,
+                    "bottom": 516,
+                    "left": 481,
+                    "right": 1154,
+                    "width": 674,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div.column-9 > div.row-12 > ul > p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-116-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,0,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 53,
+              "bottom": 117,
+              "left": 431,
+              "right": 536,
+              "width": 104,
+              "height": 65
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Benefits",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-117-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,1,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 53,
+              "bottom": 117,
+              "left": 536,
+              "right": 646,
+              "width": 111,
+              "height": 65
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Medicare",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-118-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,2,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 53,
+              "bottom": 117,
+              "left": 646,
+              "right": 794,
+              "width": 147,
+              "height": 65
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Card & record",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-119-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,4,UL,0,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.js-sign-in",
+            "boundingRect": {
+              "top": 53,
+              "bottom": 117,
+              "left": 1049,
+              "right": 1140,
+              "width": 91,
+              "height": 65
+            },
+            "snippet": "<li class=\"js-sign-in usa-nav__primary-item\">",
+            "nodeLabel": "Account",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

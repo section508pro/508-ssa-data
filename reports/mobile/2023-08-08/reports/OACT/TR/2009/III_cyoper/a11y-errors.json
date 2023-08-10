@@ -1,0 +1,54 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1047-DIV",
+            "path": "2,HTML,1,BODY,3,DIV",
+            "selector": "body > div.WebWorks_Breadcrumbs",
+            "boundingRect": {
+              "top": 163,
+              "bottom": 239,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 76
+            },
+            "snippet": "<div class=\"WebWorks_Breadcrumbs\" style=\"text-align: left;\">",
+            "nodeLabel": "III. FINANCIAL OPERATIONS OF THE TRUST FUNDS AND LEGISLATIVE CHANGES IN THE LAS…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 25.0pt (33.301px), font weight: normal). Expected contrast ratio of 3:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

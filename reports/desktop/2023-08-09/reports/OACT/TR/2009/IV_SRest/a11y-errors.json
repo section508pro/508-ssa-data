@@ -1,0 +1,109 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2026-DIV",
+            "path": "2,HTML,1,BODY,3,DIV",
+            "selector": "body > div.WebWorks_Breadcrumbs",
+            "boundingRect": {
+              "top": 112,
+              "bottom": 127,
+              "left": 8,
+              "right": 1342,
+              "width": 1334,
+              "height": 15
+            },
+            "snippet": "<div class=\"WebWorks_Breadcrumbs\" style=\"text-align: left;\">",
+            "nodeLabel": "IV. ACTUARIAL ESTIMATES",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 10.0pt (13.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2024-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,12,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.CellBodyFigure > span > a > img#273671",
+            "boundingRect": {
+              "top": 1105,
+              "bottom": 1393,
+              "left": 249,
+              "right": 681,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"273671\" class=\"Default\" src=\"images/IV_SRest_IVA1.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figIVA1.html\">",
+            "nodeLabel": "div.CellBodyFigure > span > a > img#273671",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
