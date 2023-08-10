@@ -1,0 +1,149 @@
+[
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-24-DL",
+            "path": "0,HTML,1,BODY,7,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 586,
+              "bottom": 623,
+              "left": 8,
+              "right": 1342,
+              "width": 1334,
+              "height": 37
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Eli N. Donkar, Ph.D., A.S.A., M.A.A.A.\nDeputy Chief Actuary",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-25-DL",
+                  "path": "0,HTML,1,BODY,7,DL,0,DL",
+                  "selector": "body > dl > dl",
+                  "boundingRect": {
+                    "top": 586,
+                    "bottom": 623,
+                    "left": 8,
+                    "right": 1342,
+                    "width": 1334,
+                    "height": 37
+                  },
+                  "snippet": "<dl>",
+                  "nodeLabel": "Eli N. Donkar, Ph.D., A.S.A., M.A.A.A.\nDeputy Chief Actuary"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-25-DL",
+            "path": "0,HTML,1,BODY,7,DL,0,DL",
+            "selector": "body > dl > dl",
+            "boundingRect": {
+              "top": 586,
+              "bottom": 623,
+              "left": 8,
+              "right": 1342,
+              "width": 1334,
+              "height": 37
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "Eli N. Donkar, Ph.D., A.S.A., M.A.A.A.\nDeputy Chief Actuary",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-26-HTML",
+            "path": "0,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 940,
+              "left": 0,
+              "right": 1350,
+              "width": 1350,
+              "height": 940
+            },
+            "snippet": "<html>",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
