@@ -1,0 +1,162 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-111-H4",
+            "path": "1,HTML,1,BODY,1,DIV,12,SSA-FOOTER,a,#document-fragment,2,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.grid-col-12 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 979,
+              "bottom": 1002,
+              "left": 224,
+              "right": 403,
+              "width": 179,
+              "height": 23
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\" onclick=\"\">",
+            "nodeLabel": "Support",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-112-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,0,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 53,
+              "bottom": 117,
+              "left": 431,
+              "right": 536,
+              "width": 104,
+              "height": 65
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Benefits",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-113-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,1,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 53,
+              "bottom": 117,
+              "left": 536,
+              "right": 646,
+              "width": 111,
+              "height": 65
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Medicare",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-114-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,2,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 53,
+              "bottom": 117,
+              "left": 646,
+              "right": 794,
+              "width": 147,
+              "height": 65
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Card & record",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-115-LI",
+            "path": "1,HTML,1,BODY,1,DIV,2,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,4,UL,0,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.js-sign-in",
+            "boundingRect": {
+              "top": 53,
+              "bottom": 117,
+              "left": 1049,
+              "right": 1140,
+              "width": 91,
+              "height": 65
+            },
+            "snippet": "<li class=\"js-sign-in usa-nav__primary-item\">",
+            "nodeLabel": "Account",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
