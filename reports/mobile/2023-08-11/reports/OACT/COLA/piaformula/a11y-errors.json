@@ -1,0 +1,164 @@
+[
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-99-DL",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,TABLE,0,TBODY,0,TR,1,TD,4,DL",
+            "selector": "tbody > tr > td > dl",
+            "boundingRect": {
+              "top": 811,
+              "bottom": 1185,
+              "left": 175,
+              "right": 664,
+              "width": 489,
+              "height": 374
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "PIA formula\nFor an individual who first becomes eligible for old-age insurance …",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-100-B",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,TABLE,0,TBODY,0,TR,1,TD,4,DL,0,B",
+                  "selector": "tr > td > dl > b",
+                  "boundingRect": {
+                    "top": 813,
+                    "bottom": 836,
+                    "left": 175,
+                    "right": 302,
+                    "width": 127,
+                    "height": 23
+                  },
+                  "snippet": "<b>",
+                  "nodeLabel": "PIA formula"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-101-BR",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,TABLE,0,TBODY,0,TR,1,TD,4,DL,1,BR",
+                  "selector": "tr > td > dl > br",
+                  "boundingRect": {
+                    "top": 813,
+                    "bottom": 836,
+                    "left": 302,
+                    "right": 302,
+                    "width": 0,
+                    "height": 23
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "tr > td > dl > br"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-102-BR",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,TABLE,0,TBODY,0,TR,1,TD,4,DL,3,BR",
+                  "selector": "tr > td > dl > br",
+                  "boundingRect": {
+                    "top": 957,
+                    "bottom": 980,
+                    "left": 284,
+                    "right": 284,
+                    "width": 0,
+                    "height": 23
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "tr > td > dl > br"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-103-H4",
+            "path": "1,HTML,1,BODY,1,DIV,12,SSA-FOOTER,a,#document-fragment,2,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.grid-col-12 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 1830,
+              "bottom": 1888,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 58
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\" onclick=\"\">",
+            "nodeLabel": "Support",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
