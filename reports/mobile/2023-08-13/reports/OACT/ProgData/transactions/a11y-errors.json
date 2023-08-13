@@ -1,0 +1,109 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-107-H4",
+            "path": "1,HTML,1,BODY,1,DIV,12,SSA-FOOTER,a,#document-fragment,2,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.grid-col-12 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 870,
+              "bottom": 921,
+              "left": 15,
+              "right": 945,
+              "width": 930,
+              "height": 51
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\" onclick=\"\">",
+            "nodeLabel": "Support",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "label",
+    "title": "Form elements do not have associated labels",
+    "description": "Labels ensure that form controls are announced properly by assistive technologies, like screen readers. [Learn more](https://web.dev/label/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-108-INPUT",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,0,DIV,8,TABLE,0,TBODY,0,TR,0,TD,0,FIELDSET,1,INPUT",
+            "selector": "tr > td > fieldset > input#yr",
+            "boundingRect": {
+              "top": 755,
+              "bottom": 783,
+              "left": 272,
+              "right": 368,
+              "width": 96,
+              "height": 28
+            },
+            "snippet": "<input style=\"width:96px\" type=\"text\" name=\"year\" id=\"yr\" size=\"4\" maxlength=\"4\" value=\"2022\">",
+            "nodeLabel": "tr > td > fieldset > input#yr",
+            "explanation": "Fix any of the following:\n  Form element does not have an implicit (wrapped) <label>\n  Form element does not have an explicit <label>\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element has no placeholder attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.forms",
+          "wcag2a",
+          "wcag412",
+          "wcag131",
+          "section508",
+          "section508.22.n",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

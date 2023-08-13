@@ -1,0 +1,105 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-105-H4",
+            "path": "1,HTML,1,BODY,1,DIV,12,SSA-FOOTER,a,#document-fragment,2,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.grid-col-12 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 2817,
+              "bottom": 2875,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 58
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\" onclick=\"\">",
+            "nodeLabel": "Support",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-106-UL",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,5,UL",
+            "selector": "div#page > div#content > div.grid > ul",
+            "boundingRect": {
+              "top": 2081,
+              "bottom": 2801,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 720
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Notes:\nAutomatic cost-of-living adjustments (COLAs) for OASDI benefits are effe…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
