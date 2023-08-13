@@ -1,0 +1,615 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-100-TD",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,2,TR,3,TD",
+            "selector": "table.borderblue > tbody > tr > td",
+            "boundingRect": {
+              "top": 919,
+              "bottom": 964,
+              "left": 703,
+              "right": 831,
+              "width": 128,
+              "height": 45
+            },
+            "snippet": "<td style=\"color:red\" abbr=\"dropout\">",
+            "nodeLabel": "$56,639",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.37 (foreground color: #ff0000, background color: #ddeeff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-101-TR",
+                  "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,2,TR",
+                  "selector": "div.pad-top > table.borderblue > tbody > tr",
+                  "boundingRect": {
+                    "top": 919,
+                    "bottom": 964,
+                    "left": 400,
+                    "right": 1198,
+                    "width": 798,
+                    "height": 45
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1983\t$14,249\t3.9749\t$56,639\t$35,700\t3.3021\t$117,886"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-102-TD",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,2,TR,6,TD",
+            "selector": "table.borderblue > tbody > tr > td",
+            "boundingRect": {
+              "top": 919,
+              "bottom": 964,
+              "left": 1070,
+              "right": 1198,
+              "width": 128,
+              "height": 45
+            },
+            "snippet": "<td style=\"color:red\" abbr=\"dropout\">",
+            "nodeLabel": "$117,886",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.37 (foreground color: #ff0000, background color: #ddeeff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-101-TR",
+                  "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,2,TR",
+                  "selector": "div.pad-top > table.borderblue > tbody > tr",
+                  "boundingRect": {
+                    "top": 919,
+                    "bottom": 964,
+                    "left": 400,
+                    "right": 1198,
+                    "width": 798,
+                    "height": 45
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1983\t$14,249\t3.9749\t$56,639\t$35,700\t3.3021\t$117,886"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-103-TD",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,3,TR,3,TD",
+            "selector": "table.borderblue > tbody > tr > td",
+            "boundingRect": {
+              "top": 964,
+              "bottom": 1009,
+              "left": 703,
+              "right": 831,
+              "width": 128,
+              "height": 45
+            },
+            "snippet": "<td style=\"color:red\" abbr=\"dropout\">",
+            "nodeLabel": "56,817",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-104-MAIN",
+                  "path": "1,HTML,1,BODY,9,MAIN",
+                  "selector": "body > main#content",
+                  "boundingRect": {
+                    "top": 197,
+                    "bottom": 2926,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2730
+                  },
+                  "snippet": "<main class=\"content\" id=\"content\" role=\"main\">",
+                  "nodeLabel": "Benefit Calculation Examples for Workers Retiring in 2023\nOffice of the Chief A…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-105-TD",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,3,TR,6,TD",
+            "selector": "table.borderblue > tbody > tr > td",
+            "boundingRect": {
+              "top": 964,
+              "bottom": 1009,
+              "left": 1070,
+              "right": 1198,
+              "width": 128,
+              "height": 45
+            },
+            "snippet": "<td style=\"color:red\" abbr=\"dropout\">",
+            "nodeLabel": "117,890",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-104-MAIN",
+                  "path": "1,HTML,1,BODY,9,MAIN",
+                  "selector": "body > main#content",
+                  "boundingRect": {
+                    "top": 197,
+                    "bottom": 2926,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2730
+                  },
+                  "snippet": "<main class=\"content\" id=\"content\" role=\"main\">",
+                  "nodeLabel": "Benefit Calculation Examples for Workers Retiring in 2023\nOffice of the Chief A…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-106-TD",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,3,TD",
+            "selector": "table.borderblue > tbody > tr > td",
+            "boundingRect": {
+              "top": 1009,
+              "bottom": 1054,
+              "left": 703,
+              "right": 831,
+              "width": 128,
+              "height": 45
+            },
+            "snippet": "<td style=\"color:red\" abbr=\"dropout\">",
+            "nodeLabel": "56,994",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.37 (foreground color: #ff0000, background color: #ddeeff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-107-TR",
+                  "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.pad-top > table.borderblue > tbody > tr",
+                  "boundingRect": {
+                    "top": 1009,
+                    "bottom": 1054,
+                    "left": 400,
+                    "right": 1198,
+                    "width": 798,
+                    "height": 45
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1985\t15,828\t3.6008\t56,994\t39,600\t2.9913\t118,457"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-108-TD",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,4,TR,6,TD",
+            "selector": "table.borderblue > tbody > tr > td",
+            "boundingRect": {
+              "top": 1009,
+              "bottom": 1054,
+              "left": 1070,
+              "right": 1198,
+              "width": 128,
+              "height": 45
+            },
+            "snippet": "<td style=\"color:red\" abbr=\"dropout\">",
+            "nodeLabel": "118,457",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.37 (foreground color: #ff0000, background color: #ddeeff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-107-TR",
+                  "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,4,TR",
+                  "selector": "div.pad-top > table.borderblue > tbody > tr",
+                  "boundingRect": {
+                    "top": 1009,
+                    "bottom": 1054,
+                    "left": 400,
+                    "right": 1198,
+                    "width": 798,
+                    "height": 45
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1985\t15,828\t3.6008\t56,994\t39,600\t2.9913\t118,457"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-TD",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,5,TR,3,TD",
+            "selector": "table.borderblue > tbody > tr > td",
+            "boundingRect": {
+              "top": 1054,
+              "bottom": 1099,
+              "left": 703,
+              "right": 831,
+              "width": 128,
+              "height": 45
+            },
+            "snippet": "<td style=\"color:red\" abbr=\"dropout\">",
+            "nodeLabel": "57,173",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-104-MAIN",
+                  "path": "1,HTML,1,BODY,9,MAIN",
+                  "selector": "body > main#content",
+                  "boundingRect": {
+                    "top": 197,
+                    "bottom": 2926,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2730
+                  },
+                  "snippet": "<main class=\"content\" id=\"content\" role=\"main\">",
+                  "nodeLabel": "Benefit Calculation Examples for Workers Retiring in 2023\nOffice of the Chief A…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-110-TD",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,6,TR,3,TD",
+            "selector": "table.borderblue > tbody > tr > td",
+            "boundingRect": {
+              "top": 1099,
+              "bottom": 1144,
+              "left": 703,
+              "right": 831,
+              "width": 128,
+              "height": 45
+            },
+            "snippet": "<td style=\"color:red\" abbr=\"dropout\">",
+            "nodeLabel": "57,352",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.37 (foreground color: #ff0000, background color: #ddeeff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-111-TR",
+                  "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,6,TR",
+                  "selector": "div.pad-top > table.borderblue > tbody > tr",
+                  "boundingRect": {
+                    "top": 1099,
+                    "bottom": 1144,
+                    "left": 400,
+                    "right": 1198,
+                    "width": 798,
+                    "height": 45
+                  },
+                  "snippet": "<tr>",
+                  "nodeLabel": "1987\t17,446\t3.2874\t57,352\t43,800\t2.7310\t119,616"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-112-TD",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,7,TR,6,TD",
+            "selector": "table.borderblue > tbody > tr > td",
+            "boundingRect": {
+              "top": 1144,
+              "bottom": 1189,
+              "left": 1070,
+              "right": 1198,
+              "width": 128,
+              "height": 45
+            },
+            "snippet": "<td style=\"color:red\" abbr=\"dropout\">",
+            "nodeLabel": "117,124",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-104-MAIN",
+                  "path": "1,HTML,1,BODY,9,MAIN",
+                  "selector": "body > main#content",
+                  "boundingRect": {
+                    "top": 197,
+                    "bottom": 2926,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2730
+                  },
+                  "snippet": "<main class=\"content\" id=\"content\" role=\"main\">",
+                  "nodeLabel": "Benefit Calculation Examples for Workers Retiring in 2023\nOffice of the Chief A…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-113-TD",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,5,DIV,4,DIV,0,DIV,0,TABLE,1,TBODY,19,TR,6,TD",
+            "selector": "table.borderblue > tbody > tr > td",
+            "boundingRect": {
+              "top": 1684,
+              "bottom": 1729,
+              "left": 1070,
+              "right": 1198,
+              "width": 128,
+              "height": 45
+            },
+            "snippet": "<td style=\"color:red\" abbr=\"dropout\">",
+            "nodeLabel": "119,252",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ff0000, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-104-MAIN",
+                  "path": "1,HTML,1,BODY,9,MAIN",
+                  "selector": "body > main#content",
+                  "boundingRect": {
+                    "top": 197,
+                    "bottom": 2926,
+                    "left": 0,
+                    "right": 1350,
+                    "width": 1350,
+                    "height": 2730
+                  },
+                  "snippet": "<main class=\"content\" id=\"content\" role=\"main\">",
+                  "nodeLabel": "Benefit Calculation Examples for Workers Retiring in 2023\nOffice of the Chief A…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 10
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-114-H4",
+            "path": "1,HTML,1,BODY,11,SSA-FOOTER,a,#document-fragment,2,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.grid-col-12 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 2966,
+              "bottom": 2999,
+              "left": 40,
+              "right": 265,
+              "width": 225,
+              "height": 33
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\" onclick=\"\">",
+            "nodeLabel": "Support",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-115-LI",
+            "path": "1,HTML,1,BODY,6,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,0,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 104,
+              "bottom": 197,
+              "left": 332,
+              "right": 481,
+              "width": 149,
+              "height": 93
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Benefits",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-116-LI",
+            "path": "1,HTML,1,BODY,6,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,1,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 104,
+              "bottom": 197,
+              "left": 481,
+              "right": 639,
+              "width": 158,
+              "height": 93
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Medicare",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-117-LI",
+            "path": "1,HTML,1,BODY,6,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,2,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 104,
+              "bottom": 197,
+              "left": 639,
+              "right": 850,
+              "width": 211,
+              "height": 93
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Card & record",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-118-LI",
+            "path": "1,HTML,1,BODY,6,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,4,UL,0,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.js-sign-in",
+            "boundingRect": {
+              "top": 104,
+              "bottom": 197,
+              "left": 1200,
+              "right": 1330,
+              "width": 130,
+              "height": 93
+            },
+            "snippet": "<li class=\"js-sign-in usa-nav__primary-item\">",
+            "nodeLabel": "Account",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
