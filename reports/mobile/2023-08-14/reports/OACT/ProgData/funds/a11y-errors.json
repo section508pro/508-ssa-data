@@ -1,0 +1,224 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-107-H4",
+            "path": "1,HTML,1,BODY,1,DIV,12,SSA-FOOTER,a,#document-fragment,2,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.grid-col-12 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 697,
+              "bottom": 748,
+              "left": 15,
+              "right": 945,
+              "width": 930,
+              "height": 51
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\" onclick=\"\">",
+            "nodeLabel": "Support",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-108-UL",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,2,DIV,1,UL",
+            "selector": "div.row-12 > div.column-9 > div.row-12 > ul",
+            "boundingRect": {
+              "top": 281,
+              "bottom": 460,
+              "left": 246,
+              "right": 959,
+              "width": 714,
+              "height": 179
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Trust fund tables\n\nCalendar year data\nOASI Trust Fund, 1937 and later\nDI Trust …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-109-B",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,2,DIV,1,UL,0,B",
+                  "selector": "div.column-9 > div.row-12 > ul > b",
+                  "boundingRect": {
+                    "top": 283,
+                    "bottom": 302,
+                    "left": 286,
+                    "right": 421,
+                    "width": 135,
+                    "height": 19
+                  },
+                  "snippet": "<b>",
+                  "nodeLabel": "Trust fund tables"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-110-P",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,2,DIV,1,UL,1,P",
+                  "selector": "div.column-9 > div.row-12 > ul > p",
+                  "boundingRect": {
+                    "top": 305,
+                    "bottom": 305,
+                    "left": 286,
+                    "right": 959,
+                    "width": 674,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div.column-9 > div.row-12 > ul > p"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-111-UL",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,2,DIV,1,UL,3,UL",
+                  "selector": "div.column-9 > div.row-12 > ul > ul",
+                  "boundingRect": {
+                    "top": 347,
+                    "bottom": 419,
+                    "left": 286,
+                    "right": 959,
+                    "width": 674,
+                    "height": 72
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "OASI Trust Fund, 1937 and later\nDI Trust Fund, 1957 and later\nOASI and DI Trust…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-112-UL",
+            "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,4,DIV,1,UL",
+            "selector": "div.row-12 > div.column-9 > div.row-12 > ul",
+            "boundingRect": {
+              "top": 495,
+              "bottom": 608,
+              "left": 246,
+              "right": 959,
+              "width": 714,
+              "height": 113
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Investment data\n\nInvestment transactions\nInvestment holdings\nInterest rates on …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-113-B",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,4,DIV,1,UL,0,B",
+                  "selector": "div.column-9 > div.row-12 > ul > b",
+                  "boundingRect": {
+                    "top": 497,
+                    "bottom": 516,
+                    "left": 286,
+                    "right": 413,
+                    "width": 128,
+                    "height": 19
+                  },
+                  "snippet": "<b>",
+                  "nodeLabel": "Investment data"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-114-P",
+                  "path": "1,HTML,1,BODY,1,DIV,9,DIV,1,DIV,2,DIV,4,DIV,1,UL,1,P",
+                  "selector": "div.column-9 > div.row-12 > ul > p",
+                  "boundingRect": {
+                    "top": 519,
+                    "bottom": 519,
+                    "left": 286,
+                    "right": 959,
+                    "width": 674,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div.column-9 > div.row-12 > ul > p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

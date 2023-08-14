@@ -1,0 +1,208 @@
+[
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-62-HTML",
+            "path": "1,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 1761,
+              "left": 0,
+              "right": 980,
+              "width": 980,
+              "height": 1761
+            },
+            "snippet": "<html>",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-63-UL",
+            "path": "1,HTML,2,BODY,6,TABLE,0,TBODY,2,TR,1,TD,5,UL",
+            "selector": "tbody > tr > td.grayruled-td > ul",
+            "boundingRect": {
+              "top": 965,
+              "bottom": 1161,
+              "left": 250,
+              "right": 975,
+              "width": 726,
+              "height": 196
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Description of the methods used in the long range projections that determine th…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-64-P",
+                  "path": "1,HTML,2,BODY,6,TABLE,0,TBODY,2,TR,1,TD,5,UL,1,P",
+                  "selector": "tr > td.grayruled-td > ul > p",
+                  "boundingRect": {
+                    "top": 1089,
+                    "bottom": 1089,
+                    "left": 290,
+                    "right": 975,
+                    "width": 686,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "tr > td.grayruled-td > ul > p"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-65-UL",
+            "path": "1,HTML,2,BODY,6,TABLE,0,TBODY,2,TR,1,TD,8,UL",
+            "selector": "tbody > tr > td.grayruled-td > ul",
+            "boundingRect": {
+              "top": 1229,
+              "bottom": 1657,
+              "left": 250,
+              "right": 975,
+              "width": 726,
+              "height": 428
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Summary of the latest report for the Social Security and Medicare programs (als…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-66-P",
+                  "path": "1,HTML,2,BODY,6,TABLE,0,TBODY,2,TR,1,TD,8,UL,1,P",
+                  "selector": "tr > td.grayruled-td > ul > p",
+                  "boundingRect": {
+                    "top": 1353,
+                    "bottom": 1353,
+                    "left": 290,
+                    "right": 975,
+                    "width": 686,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "tr > td.grayruled-td > ul > p"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-67-P",
+                  "path": "1,HTML,2,BODY,6,TABLE,0,TBODY,2,TR,1,TD,8,UL,3,P",
+                  "selector": "tr > td.grayruled-td > ul > p",
+                  "boundingRect": {
+                    "top": 1441,
+                    "bottom": 1441,
+                    "left": 290,
+                    "right": 975,
+                    "width": 686,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "tr > td.grayruled-td > ul > p"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-68-P",
+                  "path": "1,HTML,2,BODY,6,TABLE,0,TBODY,2,TR,1,TD,8,UL,4,P",
+                  "selector": "tr > td.grayruled-td > ul > p",
+                  "boundingRect": {
+                    "top": 1441,
+                    "bottom": 1441,
+                    "left": 290,
+                    "right": 975,
+                    "width": 686,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "tr > td.grayruled-td > ul > p"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

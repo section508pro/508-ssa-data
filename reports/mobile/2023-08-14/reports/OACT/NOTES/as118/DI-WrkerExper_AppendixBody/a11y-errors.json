@@ -1,0 +1,785 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-174-UL",
+            "path": "2,HTML,1,BODY,12,DIV,0,UL",
+            "selector": "body > div.pSmartList1 > ul.pSmartList1",
+            "boundingRect": {
+              "top": 1359,
+              "bottom": 1623,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 264
+            },
+            "snippet": "<ul class=\"pSmartList1\">",
+            "nodeLabel": "Death of the beneficiary;\nRecovery—includes medical recovery or return to work;…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-9-A",
+                  "path": "2,HTML,1,BODY,12,DIV,0,UL,0,A",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > a",
+                  "boundingRect": {
+                    "top": 1359,
+                    "bottom": 1359,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp1098145\">",
+                  "nodeLabel": "body > div.pSmartList1 > ul.pSmartList1 > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-175-DIV",
+                  "path": "2,HTML,1,BODY,12,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > div.pSmartList1",
+                  "boundingRect": {
+                    "top": 1359,
+                    "bottom": 1407,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 48
+                  },
+                  "snippet": "<div class=\"pSmartList1\">",
+                  "nodeLabel": "Death of the beneficiary;"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-10-A",
+                  "path": "2,HTML,1,BODY,12,DIV,0,UL,2,A",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > a",
+                  "boundingRect": {
+                    "top": 1415,
+                    "bottom": 1415,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp1098146\">",
+                  "nodeLabel": "body > div.pSmartList1 > ul.pSmartList1 > a"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-176-UL",
+            "path": "2,HTML,1,BODY,33,DIV,0,UL",
+            "selector": "body > div.pSmartList1 > ul.pSmartList1",
+            "boundingRect": {
+              "top": 5349,
+              "bottom": 5845,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 496
+            },
+            "snippet": "<ul class=\"pSmartList1\">",
+            "nodeLabel": "Primary claimants (workers) entitled to disability benefits sometime during the…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-40-A",
+                  "path": "2,HTML,1,BODY,33,DIV,0,UL,0,A",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > a",
+                  "boundingRect": {
+                    "top": 5349,
+                    "bottom": 5349,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp1014275\">",
+                  "nodeLabel": "body > div.pSmartList1 > ul.pSmartList1 > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-177-DIV",
+                  "path": "2,HTML,1,BODY,33,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > div.pSmartList1",
+                  "boundingRect": {
+                    "top": 5349,
+                    "bottom": 5445,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 96
+                  },
+                  "snippet": "<div class=\"pSmartList1\">",
+                  "nodeLabel": "Primary claimants (workers) entitled to disability benefits sometime during the…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-41-A",
+                  "path": "2,HTML,1,BODY,33,DIV,0,UL,2,A",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > a",
+                  "boundingRect": {
+                    "top": 5453,
+                    "bottom": 5453,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp1098286\">",
+                  "nodeLabel": "body > div.pSmartList1 > ul.pSmartList1 > a"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-178-UL",
+            "path": "2,HTML,1,BODY,36,DIV,0,UL",
+            "selector": "body > div.pSmartList1 > ul.pSmartList1",
+            "boundingRect": {
+              "top": 5925,
+              "bottom": 6373,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 448
+            },
+            "snippet": "<ul class=\"pSmartList1\">",
+            "nodeLabel": "Dependents (spouses and children) of a primary claimant;\nPrimary claimants whos…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-44-A",
+                  "path": "2,HTML,1,BODY,36,DIV,0,UL,0,A",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > a",
+                  "boundingRect": {
+                    "top": 5925,
+                    "bottom": 5925,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp1014287\">",
+                  "nodeLabel": "body > div.pSmartList1 > ul.pSmartList1 > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-179-DIV",
+                  "path": "2,HTML,1,BODY,36,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > div.pSmartList1",
+                  "boundingRect": {
+                    "top": 5925,
+                    "bottom": 6021,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 96
+                  },
+                  "snippet": "<div class=\"pSmartList1\">",
+                  "nodeLabel": "Dependents (spouses and children) of a primary claimant;"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-45-A",
+                  "path": "2,HTML,1,BODY,36,DIV,0,UL,2,A",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > a",
+                  "boundingRect": {
+                    "top": 6029,
+                    "bottom": 6029,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp1014291\">",
+                  "nodeLabel": "body > div.pSmartList1 > ul.pSmartList1 > a"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-180-UL",
+            "path": "2,HTML,1,BODY,43,DIV,0,UL",
+            "selector": "body > div.pSmartList1 > ul.pSmartList1",
+            "boundingRect": {
+              "top": 7263,
+              "bottom": 7471,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 208
+            },
+            "snippet": "<ul class=\"pSmartList1\">",
+            "nodeLabel": "Death;\nRecovery or other non-death decrement;\nThe end of the observation period…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-51-A",
+                  "path": "2,HTML,1,BODY,43,DIV,0,UL,0,A",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > a",
+                  "boundingRect": {
+                    "top": 7263,
+                    "bottom": 7263,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp1013849\">",
+                  "nodeLabel": "body > div.pSmartList1 > ul.pSmartList1 > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-181-DIV",
+                  "path": "2,HTML,1,BODY,43,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > div.pSmartList1",
+                  "boundingRect": {
+                    "top": 7263,
+                    "bottom": 7311,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 48
+                  },
+                  "snippet": "<div class=\"pSmartList1\">",
+                  "nodeLabel": "Death;"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-52-A",
+                  "path": "2,HTML,1,BODY,43,DIV,0,UL,2,A",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > a",
+                  "boundingRect": {
+                    "top": 7319,
+                    "bottom": 7319,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp1064749\">",
+                  "nodeLabel": "body > div.pSmartList1 > ul.pSmartList1 > a"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-182-UL",
+            "path": "2,HTML,1,BODY,70,DIV,0,UL",
+            "selector": "body > div.pSmartList1 > ul.pSmartList1",
+            "boundingRect": {
+              "top": 10719,
+              "bottom": 10767,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 48
+            },
+            "snippet": "<ul class=\"pSmartList1\">",
+            "nodeLabel": "Time r at which observation begins:",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-69-A",
+                  "path": "2,HTML,1,BODY,70,DIV,0,UL,0,A",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > a",
+                  "boundingRect": {
+                    "top": 10719,
+                    "bottom": 10719,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp1013879\">",
+                  "nodeLabel": "body > div.pSmartList1 > ul.pSmartList1 > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-183-DIV",
+                  "path": "2,HTML,1,BODY,70,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > div.pSmartList1",
+                  "boundingRect": {
+                    "top": 10719,
+                    "bottom": 10767,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 48
+                  },
+                  "snippet": "<div class=\"pSmartList1\">",
+                  "nodeLabel": "Time r at which observation begins:"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-184-UL",
+            "path": "2,HTML,1,BODY,73,DIV,0,UL",
+            "selector": "body > div.pSmartList1 > ul.pSmartList1",
+            "boundingRect": {
+              "top": 10857,
+              "bottom": 10905,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 48
+            },
+            "snippet": "<ul class=\"pSmartList1\">",
+            "nodeLabel": "Time s at which observation is scheduled to end:",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-71-A",
+                  "path": "2,HTML,1,BODY,73,DIV,0,UL,0,A",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > a",
+                  "boundingRect": {
+                    "top": 10857,
+                    "bottom": 10857,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp1013880\">",
+                  "nodeLabel": "body > div.pSmartList1 > ul.pSmartList1 > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-185-DIV",
+                  "path": "2,HTML,1,BODY,73,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pSmartList1 > ul.pSmartList1 > div.pSmartList1",
+                  "boundingRect": {
+                    "top": 10857,
+                    "bottom": 10905,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 48
+                  },
+                  "snippet": "<div class=\"pSmartList1\">",
+                  "nodeLabel": "Time s at which observation is scheduled to end:"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 6
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-186-LI",
+            "path": "2,HTML,1,BODY,12,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 1359,
+              "bottom": 1407,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Death of the beneficiary;",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-187-LI",
+            "path": "2,HTML,1,BODY,12,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 1415,
+              "bottom": 1511,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 96
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Recovery—includes medical recovery or return to work;",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-188-LI",
+            "path": "2,HTML,1,BODY,12,DIV,0,UL,5,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 1519,
+              "bottom": 1567,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Converting to old-age benefits; and",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-189-LI",
+            "path": "2,HTML,1,BODY,12,DIV,0,UL,7,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 1575,
+              "bottom": 1623,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "All other reasons.",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-190-LI",
+            "path": "2,HTML,1,BODY,33,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 5349,
+              "bottom": 5445,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 96
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Primary claimants (workers) entitled to disability benefits sometime during the…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-191-LI",
+            "path": "2,HTML,1,BODY,33,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 5453,
+              "bottom": 5741,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 288
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Primary claimants entitled to old-age benefits sometime during the observation …",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-192-LI",
+            "path": "2,HTML,1,BODY,33,DIV,0,UL,5,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 5749,
+              "bottom": 5845,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 96
+            },
+            "snippet": "<li>",
+            "nodeLabel": "A maximum of three periods of disability for each primary having multiple perio…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-193-LI",
+            "path": "2,HTML,1,BODY,36,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 5925,
+              "bottom": 6021,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 96
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Dependents (spouses and children) of a primary claimant;",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-194-LI",
+            "path": "2,HTML,1,BODY,36,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 6029,
+              "bottom": 6221,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 192
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Primary claimants whose period of disability was terminated or permanently susp…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-195-LI",
+            "path": "2,HTML,1,BODY,36,DIV,0,UL,5,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 6229,
+              "bottom": 6373,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 144
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Periods of entitlement to old-age benefits that were preceeded by a period of d…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-196-LI",
+            "path": "2,HTML,1,BODY,43,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 7263,
+              "bottom": 7311,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Death;",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-197-LI",
+            "path": "2,HTML,1,BODY,43,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 7319,
+              "bottom": 7367,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Recovery or other non-death decrement;",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-198-LI",
+            "path": "2,HTML,1,BODY,43,DIV,0,UL,5,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 7375,
+              "bottom": 7471,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 96
+            },
+            "snippet": "<li>",
+            "nodeLabel": "The end of the observation period—termed an\nobserved ender.",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-199-LI",
+            "path": "2,HTML,1,BODY,70,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 10719,
+              "bottom": 10767,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Time r at which observation begins:",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-200-LI",
+            "path": "2,HTML,1,BODY,73,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pSmartList1 > ul.pSmartList1 > div.pSmartList1 > li",
+            "boundingRect": {
+              "top": 10857,
+              "bottom": 10905,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Time s at which observation is scheduled to end:",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 15
+  }
+]
