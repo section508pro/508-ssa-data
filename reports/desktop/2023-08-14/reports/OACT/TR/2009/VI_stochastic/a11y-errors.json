@@ -1,0 +1,76 @@
+[
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-160-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,15,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.CellBodyFigure > span > a > img#105865",
+            "boundingRect": {
+              "top": 1143,
+              "bottom": 1431,
+              "left": 261,
+              "right": 693,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"105865\" class=\"Default\" src=\"images/VI_stochastic_VIE1.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figVIE1.html\">",
+            "nodeLabel": "div.CellBodyFigure > span > a > img#105865",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-162-IMG",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,18,TABLE,1,TBODY,0,TR,0,TD,0,DIV,0,SPAN,0,A,0,IMG",
+            "selector": "div.CellBodyFigure > span > a > img#105885",
+            "boundingRect": {
+              "top": 1649,
+              "bottom": 1937,
+              "left": 261,
+              "right": 693,
+              "width": 432,
+              "height": 288
+            },
+            "snippet": "<img id=\"105885\" class=\"Default\" src=\"images/VI_stochastic_VIE2.gif\" width=\"432\" height=\"288\" style=\"display: inline; float: none; left: 0.0; text-align: left; top: 0.0;\" longdesc=\"LD_figVIE2.html\">",
+            "nodeLabel": "div.CellBodyFigure > span > a > img#105885",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

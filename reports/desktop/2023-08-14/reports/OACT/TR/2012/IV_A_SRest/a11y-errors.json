@@ -1,0 +1,96 @@
+[
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-35-A",
+            "path": "2,HTML,1,BODY,4,BLOCKQUOTE,10,TABLE,0,CAPTION,0,DIV,2,SUP,0,A",
+            "selector": "caption > div.TableTitle > sup > a",
+            "boundingRect": {
+              "top": 818,
+              "bottom": 833,
+              "left": 838,
+              "right": 838,
+              "width": 0,
+              "height": 15
+            },
+            "snippet": "<a name=\"wwfootnote_inline_4\" href=\"#4\">",
+            "nodeLabel": "caption > div.TableTitle > sup > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-704-A",
+            "path": "2,HTML,1,BODY,4,BLOCKQUOTE,35,TABLE,0,CAPTION,0,DIV,2,SPAN,0,SUP,0,A",
+            "selector": "div.TableTitle > span.Superscript > sup > a",
+            "boundingRect": {
+              "top": 3128,
+              "bottom": 3137,
+              "left": 827,
+              "right": 827,
+              "width": 0,
+              "height": 9
+            },
+            "snippet": "<a name=\"wwfootnote_inline_11\" href=\"#11\">",
+            "nodeLabel": "div.TableTitle > span.Superscript > sup > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1368-A",
+            "path": "2,HTML,1,BODY,4,BLOCKQUOTE,62,TABLE,0,CAPTION,0,DIV,4,SUP,0,A",
+            "selector": "caption > div.TableTitle > sup > a",
+            "boundingRect": {
+              "top": 5176,
+              "bottom": 5191,
+              "left": 662,
+              "right": 662,
+              "width": 0,
+              "height": 15
+            },
+            "snippet": "<a name=\"wwfootnote_inline_22\" href=\"#22\">",
+            "nodeLabel": "caption > div.TableTitle > sup > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]
