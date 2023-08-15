@@ -1,0 +1,129 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-4564-DIV",
+            "path": "2,HTML,1,BODY,3,DIV",
+            "selector": "body > div.WebWorks_Breadcrumbs",
+            "boundingRect": {
+              "top": 168,
+              "bottom": 208,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 40
+            },
+            "snippet": "<div class=\"WebWorks_Breadcrumbs\" style=\"text-align: left;\">",
+            "nodeLabel": "VI. APPENDICES",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 26.1pt (34.8207px), font weight: normal). Expected contrast ratio of 3:1"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2085-A",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,51,TABLE,1,TBODY,10,TR,10,TD,0,DIV,0,SPAN,0,SUP,0,A",
+            "selector": "div.CellBody > span.Superscript > sup > a",
+            "boundingRect": {
+              "top": 18247,
+              "bottom": 18247,
+              "left": 580,
+              "right": 580,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"wwfootnote_inline_25\" href=\"#25>",
+            "nodeLabel": "div.CellBody > span.Superscript > sup > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-2086-A",
+            "path": "2,HTML,1,BODY,5,BLOCKQUOTE,51,TABLE,1,TBODY,10,TR,10,TD,1,A",
+            "selector": "tbody > tr > td#tc123558 > a",
+            "boundingRect": {
+              "top": 18257,
+              "bottom": 18257,
+              "left": 534,
+              "right": 534,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<a name=\"wwfootnote_inline_25\" href=\"#25>",
+            "nodeLabel": "tbody > tr > td#tc123558 > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

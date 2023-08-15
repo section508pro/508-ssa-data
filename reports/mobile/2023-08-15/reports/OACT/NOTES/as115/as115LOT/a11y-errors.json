@@ -1,0 +1,278 @@
+[
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-492-DL",
+            "path": "0,HTML,1,BODY,4,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 341,
+              "bottom": 485,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 144
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "II.1 Selected OASDI Short-Range Economic Assumptions\nII.2 Average Amount of Tot…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-493-DL",
+            "path": "0,HTML,1,BODY,6,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 501,
+              "bottom": 573,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 72
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "III.A1 Workers Insured for Old-Age and Survivors Insurance Benefits\nIII.A2 Soci…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-494-DL",
+            "path": "0,HTML,1,BODY,8,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 712,
+              "bottom": 1252,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 540
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "III.A5 Workers Insured in the Event of Disability as a Percent of Fully Insured…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-491-DL",
+            "path": "0,HTML,1,BODY,10,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 1391,
+              "bottom": 2957,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 1566
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "III.B1 Population in the Social Security Area, Age 60 or Older\nIII.B2 OASI Work…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-495-DL",
+            "path": "0,HTML,1,BODY,12,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 3047,
+              "bottom": 3137,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 90
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "III.C1 DI Average Monthly Benefit Awarded to Disabled Workers\nIII.C2 DI Average…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-496-DL",
+            "path": "0,HTML,1,BODY,14,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 3276,
+              "bottom": 3762,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 486
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "III.D1 DI Average Monthly Benefit to Male Disabled Workers In Force, Awarded, T…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-497-DL",
+            "path": "0,HTML,1,BODY,16,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 3901,
+              "bottom": 4657,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 756
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "III.E1 Average Monthly Benefit of Retired Workers In Force, Awarded, Terminated…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-498-DL",
+            "path": "0,HTML,1,BODY,18,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 4673,
+              "bottom": 4979,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 306
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "IV.1 Contribution Rates to the OASI and DI Trust Funds\nIV.2 FICA, SECA, and Sta…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-499-DL",
+            "path": "0,HTML,1,BODY,21,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 5069,
+              "bottom": 5321,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 252
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "V.A1 Selected OASDI Short-Range Economic Assumptions\nV.A2 Average Amount of Tot…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-500-DL",
+            "path": "0,HTML,1,BODY,23,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 5412,
+              "bottom": 5664,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 252
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "V.B1 Selected OASDI Short-Range Economic Assumptions\nV.B2 Average Amount of Tot…",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 10
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-501-HTML",
+            "path": "0,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 5820,
+              "left": 0,
+              "right": 980,
+              "width": 980,
+              "height": 5820
+            },
+            "snippet": "<html>",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

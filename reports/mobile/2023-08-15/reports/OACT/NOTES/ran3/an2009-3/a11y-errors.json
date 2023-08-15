@@ -1,0 +1,375 @@
+[
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-13-A",
+            "path": "2,HTML,1,BODY,11,P,1,A",
+            "selector": "body > p.pBody > a",
+            "boundingRect": {
+              "top": 1637,
+              "bottom": 1654,
+              "left": 705,
+              "right": 705,
+              "width": 0,
+              "height": 17
+            },
+            "snippet": "<a href=\"http://www.socialsecurity.gov/OACT/TR/2009/VI_OASDHI_dollars.html#119381\">",
+            "nodeLabel": "body > p.pBody > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-76-A",
+            "path": "2,HTML,1,BODY,18,DIV,1,TABLE,0,TBODY,0,TR,0,TD,7,P,0,A",
+            "selector": "tr > td > p.pTableNote > a",
+            "boundingRect": {
+              "top": 3767,
+              "bottom": 3782,
+              "left": 11,
+              "right": 11,
+              "width": 0,
+              "height": 15
+            },
+            "snippet": "<a href=\"#wp163224\">",
+            "nodeLabel": "tr > td > p.pTableNote > a",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1263-UL",
+            "path": "2,HTML,1,BODY,100,DIV,0,UL",
+            "selector": "body > div.pBullet > ul.pBullet",
+            "boundingRect": {
+              "top": 17138,
+              "bottom": 17387,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 248
+            },
+            "snippet": "<ul class=\"pBullet\">",
+            "nodeLabel": "To maintain consistency with prior hypothetical steady workers8 while simplifyi…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-546-A",
+                  "path": "2,HTML,1,BODY,100,DIV,0,UL,0,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 17138,
+                    "bottom": 17138,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp142796\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1264-DIV",
+                  "path": "2,HTML,1,BODY,100,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pBullet > ul.pBullet > div.pBullet",
+                  "boundingRect": {
+                    "top": 17138,
+                    "bottom": 17235,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 96
+                  },
+                  "snippet": "<div class=\"pBullet\">",
+                  "nodeLabel": "To maintain consistency with prior hypothetical steady workers8 while simplifyi…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-548-A",
+                  "path": "2,HTML,1,BODY,100,DIV,0,UL,2,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 17243,
+                    "bottom": 17243,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp142800\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1265-UL",
+            "path": "2,HTML,1,BODY,109,DIV,0,UL",
+            "selector": "body > div.pBullet > ul.pBullet",
+            "boundingRect": {
+              "top": 18198,
+              "bottom": 18350,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 152
+            },
+            "snippet": "<ul class=\"pBullet\">",
+            "nodeLabel": "The preliminary adjusted scaled factors for ages 21 through 64, by\nThe ratio of…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-574-A",
+                  "path": "2,HTML,1,BODY,109,DIV,0,UL,0,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 18198,
+                    "bottom": 18198,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp142809\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1266-DIV",
+                  "path": "2,HTML,1,BODY,109,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pBullet > ul.pBullet > div.pBullet",
+                  "boundingRect": {
+                    "top": 18198,
+                    "bottom": 18294,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 96
+                  },
+                  "snippet": "<div class=\"pBullet\">",
+                  "nodeLabel": "The preliminary adjusted scaled factors for ages 21 through 64, by"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-575-A",
+                  "path": "2,HTML,1,BODY,109,DIV,0,UL,2,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 18302,
+                    "bottom": 18302,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp142810\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1267-LI",
+            "path": "2,HTML,1,BODY,100,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 17138,
+              "bottom": 17235,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 96
+            },
+            "snippet": "<li>",
+            "nodeLabel": "To maintain consistency with prior hypothetical steady workers8 while simplifyi…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1268-LI",
+            "path": "2,HTML,1,BODY,100,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 17243,
+              "bottom": 17387,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 144
+            },
+            "snippet": "<li>",
+            "nodeLabel": "To make the calculation of the hypothetical scaled worker factors independent o…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1269-LI",
+            "path": "2,HTML,1,BODY,109,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 18198,
+              "bottom": 18294,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 96
+            },
+            "snippet": "<li>",
+            "nodeLabel": "The preliminary adjusted scaled factors for ages 21 through 64, by",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1270-LI",
+            "path": "2,HTML,1,BODY,109,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 18302,
+              "bottom": 18350,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "The ratio of 1.189 shown in tables 5 and 6.",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
