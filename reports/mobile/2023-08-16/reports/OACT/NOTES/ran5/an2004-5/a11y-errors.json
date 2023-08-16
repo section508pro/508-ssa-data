@@ -1,0 +1,372 @@
+[
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1517-HTML",
+            "path": "1,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 27157,
+              "left": 0,
+              "right": 980,
+              "width": 980,
+              "height": 27157
+            },
+            "snippet": "<html>",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1518-UL",
+            "path": "1,HTML,3,BODY,10,DIV,0,UL",
+            "selector": "body > div.pBullet > ul.pBullet",
+            "boundingRect": {
+              "top": 1535,
+              "bottom": 2215,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 681
+            },
+            "snippet": "<ul class=\"pBullet\">",
+            "nodeLabel": "Increased Payroll Tax-Payroll-tax rates are increased above those scheduled in …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-12-A",
+                  "path": "1,HTML,3,BODY,10,DIV,0,UL,0,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 1535,
+                    "bottom": 1535,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp158349\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1519-DIV",
+                  "path": "1,HTML,3,BODY,10,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pBullet > ul.pBullet > div.pBullet",
+                  "boundingRect": {
+                    "top": 1535,
+                    "bottom": 1871,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 336
+                  },
+                  "snippet": "<div class=\"pBullet\">",
+                  "nodeLabel": "Increased Payroll Tax-Payroll-tax rates are increased above those scheduled in …"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-14-A",
+                  "path": "1,HTML,3,BODY,10,DIV,0,UL,2,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 1879,
+                    "bottom": 1879,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp158353\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1520-UL",
+            "path": "1,HTML,3,BODY,61,DIV,0,UL",
+            "selector": "body > div.pBullet > ul.pBullet",
+            "boundingRect": {
+              "top": 11147,
+              "bottom": 11307,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 160
+            },
+            "snippet": "<ul class=\"pBullet\">",
+            "nodeLabel": "Present Law Scheduled,\nIncreased Payroll Tax, and\nPayable Benefits.",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-110-A",
+                  "path": "1,HTML,3,BODY,61,DIV,0,UL,0,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 11147,
+                    "bottom": 11147,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp158474\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-1521-DIV",
+                  "path": "1,HTML,3,BODY,61,DIV,0,UL,1,DIV",
+                  "selector": "body > div.pBullet > ul.pBullet > div.pBullet",
+                  "boundingRect": {
+                    "top": 11147,
+                    "bottom": 11195,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 48
+                  },
+                  "snippet": "<div class=\"pBullet\">",
+                  "nodeLabel": "Present Law Scheduled,"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-111-A",
+                  "path": "1,HTML,3,BODY,61,DIV,0,UL,2,A",
+                  "selector": "body > div.pBullet > ul.pBullet > a",
+                  "boundingRect": {
+                    "top": 11203,
+                    "bottom": 11203,
+                    "left": 48,
+                    "right": 48,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"wp158475\">",
+                  "nodeLabel": "body > div.pBullet > ul.pBullet > a"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1522-LI",
+            "path": "1,HTML,3,BODY,10,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 1535,
+              "bottom": 1871,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 336
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Increased Payroll Tax-Payroll-tax rates are increased above those scheduled in …",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1523-LI",
+            "path": "1,HTML,3,BODY,10,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 1879,
+              "bottom": 2215,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 336
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Payable Benefits-Benefits scheduled in present law are reduced by an annual per…",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1524-LI",
+            "path": "1,HTML,3,BODY,61,DIV,0,UL,1,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 11147,
+              "bottom": 11195,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Present Law Scheduled,",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1525-LI",
+            "path": "1,HTML,3,BODY,61,DIV,0,UL,3,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 11203,
+              "bottom": 11251,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Increased Payroll Tax, and",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1526-LI",
+            "path": "1,HTML,3,BODY,61,DIV,0,UL,5,DIV,0,LI",
+            "selector": "div.pBullet > ul.pBullet > div.pBullet > li",
+            "boundingRect": {
+              "top": 11259,
+              "bottom": 11307,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 48
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Payable Benefits.",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]

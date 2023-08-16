@@ -1,0 +1,1274 @@
+[
+  {
+    "path": "/",
+    "score": 0.92,
+    "performance": 0.83,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 0.93
+  },
+  {
+    "path": "/515/",
+    "score": 0.93,
+    "performance": 0.79,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/515/index.htm",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/515/peerreview.htm",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/515/requests.htm",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/515/ssaguidelines.html",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/515/submittalrules.htm",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/80thanniversary/",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 0.93
+  },
+  {
+    "path": "/OACT/",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.96
+  },
+  {
+    "path": "/OACT/ANYPIA/index.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/COLA/",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 0.94
+  },
+  {
+    "path": "/OACT/COLA/attorneyfee.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/COLA/colaeffect.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/COLA/colasummary.html",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.98
+  },
+  {
+    "path": "/OACT/COLA/QC.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/COLA/SSIamts.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/COLA/statesuppfee.html",
+    "score": 0.97,
+    "performance": 0.97,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/COLA/studentEIE.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/COLA/wageindexed.html",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/FACTS/",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.94
+  },
+  {
+    "path": "/OACT/FACTS/index.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.94
+  },
+  {
+    "path": "/OACT/HistEst/CohLifeTablesHome.html",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 0.89
+  },
+  {
+    "path": "/OACT/HistEst/DeathHome.html",
+    "score": 0.96,
+    "performance": 0.98,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 0.96
+  },
+  {
+    "path": "/OACT/HistEst/PerLifeTablesHome.html",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 0.89
+  },
+  {
+    "path": "/OACT/HistEst/PopHome.html",
+    "score": 0.97,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 0.96
+  },
+  {
+    "path": "/OACT/NOTES/actnote.html",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/NOTES/as115/as115Tbl_III_A4.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as115/as115Tbl_III_B5.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as115/as115Tbl_III_B59.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as115/as115Tbl_III_B73.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as115/as115Tbl_III_B77.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as115/as115Tbl_III_D15.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as115/as115Tbl_IV_14.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as115/as115Tbl_VB_9.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as116/as116_Foreword.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as116/images/LD_fig2a.html",
+    "score": 0.89,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as116/images/LD_fig2b.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as116/images/LD_fig4b.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as116/images/LD_fig5.html",
+    "score": 0.89,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as116/images/LD_formula2.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as116/images/LD_formula4.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as116/images/LD_formula6.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as116/images/LD_formula7.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as117/images/LD_figII_1.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as117/images/LD_figII_3.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as117/images/LD_figII_5.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as117/images/LD_figII_7.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as117/images/LD_figIV_13.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as117/images/LD_figIV_15.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as117/images/LD_figIV_20.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as117/images/LD_figIV_3.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as117/LR_Stochastic_Foreword.html",
+    "score": 0.79,
+    "performance": 1,
+    "accessibility": 0.78,
+    "best-practices": 0.75,
+    "seo": 0.62
+  },
+  {
+    "path": "/OACT/NOTES/as118/DI-WrkerExper_AppendixBody.html",
+    "score": 0.85,
+    "performance": 1,
+    "accessibility": 0.88,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as118/DI-WrkerExper_Foreword.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as118/images/LD_fig1.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as118/images/LD_fig2.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as118/images/LD_fig3.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as118/images/LD_fig4.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as119/Foreword.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as119/images/LD_fig10.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as119/images/LD_fig11.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as119/images/LD_fig2.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as119/images/LD_fig3.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as119/images/LD_fig4.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as119/images/LD_fig5.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as119/images/LD_fig7.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as119/images/LD_fig9.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as120/images/LD_fig1.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as120/images/LD_fig2a.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as120/images/LD_fig2b.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as120/images/LD_fig3a.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as120/images/LD_fig3b.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as120/images/LD_fig4a.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as120/images/LD_fig4b.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as120/images/LD_fig5.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/as120/LifeTables_Foreword.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as120/LifeTables_Tbl_6.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/as120/LifeTables_Tbl_7.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/note136.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note137.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note138.html",
+    "score": 0.89,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.92,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/NOTES/note139/original_note139.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/list.html",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/note100.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/note103/",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/note103/avgwage.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/note103/construction.html",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/note103/determination.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/note103/fedregister.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/note103/index.html",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/note103/introduction.html",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/note103/table.html",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1980s/note105.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note1990s/list.html",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note2000s/note143.html",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.88,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/note2000s/note144.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/ran3/",
+    "score": 0.97,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 0.98
+  },
+  {
+    "path": "/OACT/NOTES/ran3/an2005-3.html",
+    "score": 0.84,
+    "performance": 1,
+    "accessibility": 0.77,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/ran3/an2006-3.html",
+    "score": 0.85,
+    "performance": 1,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/ran3/an2008-3.html",
+    "score": 0.85,
+    "performance": 1,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/ran3/an2011-3.html",
+    "score": 0.85,
+    "performance": 1,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/ran5/an2004-5.html",
+    "score": 0.84,
+    "performance": 1,
+    "accessibility": 0.77,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/ran5/an2007-5.html",
+    "score": 0.85,
+    "performance": 1,
+    "accessibility": 0.79,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/ran5/an2008-5.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.86,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/ran5/form.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/NOTES/s1970s.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/NOTES/s1990s.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/NOTES/studylist2000s.html",
+    "score": 0.87,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/ProgData/assets.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/ProgData/awards.html",
+    "score": 0.89,
+    "performance": 1,
+    "accessibility": 0.92,
+    "best-practices": 0.83,
+    "seo": 0.8
+  },
+  {
+    "path": "/OACT/ProgData/benefits/da_age202212.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/ProgData/benefits/primaries.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/ProgData/benefits/ra_age202212.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 0.91,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/ProgData/directdeposit.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/ProgData/interestrates1937-99.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/ProgData/newIssueRates.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/ProgData/oldfyOps.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/ProgData/qop.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/ProgData/retirebenefit2.html",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/STATS/cpiw_graph.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/STATS/cpiw.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/STATS/dib-g3.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/STATS/dibStat.html",
+    "score": 0.94,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.83,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/STATS/OASDIbenies.html",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/STATS/table4a1.html",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/STATS/table4a2.html",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/STATS/table4c2FI.html",
+    "score": 0.98,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/OACT/TR/2009/",
+    "score": 0.82,
+    "performance": 1,
+    "accessibility": 0.9,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2009/LD_figIID1.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.67
+  },
+  {
+    "path": "/OACT/TR/2009/lr5a1.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2009/lr5a3.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2009/trTOC.html",
+    "score": 0.88,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2009/V_demographic.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2009/V_economic.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2009/VI_LRact_bal.html",
+    "score": 0.88,
+    "performance": 0.98,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2009/VI_OASDHI_GDP.html",
+    "score": 0.87,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2010/I_intro.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2010/LD_figIVB4.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2010/lr4b3.html",
+    "score": 0.8,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.58,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2010/lr5c4.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2010/lr6f4.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2010/lr6f8.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2010/VI_LRsensitivity.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2010/VI_OASDHI_dollars.html",
+    "score": 0.85,
+    "performance": 0.95,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2011/II_A_highlights.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2011/LD_figIVB1.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2011/LD_figVIE2.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2011/lr5a1.html",
+    "score": 0.8,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.58,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2011/lr6f4.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2011/lr6f5.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2011/lr6f7.html",
+    "score": 0.83,
+    "performance": 1,
+    "accessibility": 0.94,
+    "best-practices": 0.67,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2011/VI_E_stoch.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2012/III_A_cyoper.html",
+    "score": 0.87,
+    "performance": 0.97,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2012/LD_figIVB2.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2012/LD_figVC4.html",
+    "score": 0.9,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2012/lr5a1.html",
+    "score": 0.96,
+    "performance": 1,
+    "accessibility": 0.99,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/TR/2012/lr5a3.html",
+    "score": 0.95,
+    "performance": 1,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.92
+  },
+  {
+    "path": "/OACT/TR/2012/VI_E_stoch.html",
+    "score": 0.86,
+    "performance": 1,
+    "accessibility": 0.93,
+    "best-practices": 0.83,
+    "seo": 0.69
+  },
+  {
+    "path": "/OACT/TR/2012/VI_F2_OASDHI_GDP.html",
+    "score": 0.88,
+    "performance": 1,
+    "accessibility": 1,
+    "best-practices": 0.83,
+    "seo": 0.69
+  }
+]
