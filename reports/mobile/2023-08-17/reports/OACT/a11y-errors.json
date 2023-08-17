@@ -1,0 +1,208 @@
+[
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-H4",
+            "path": "1,HTML,1,BODY,11,SSA-FOOTER,a,#document-fragment,2,FOOTER,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,DIV,0,NAV,0,DIV,0,DIV,0,SECTION,0,H4",
+            "selector": "div.grid-row > div.grid-col-12 > section.usa-footer__primary-content > h4.usa-footer__primary-link",
+            "boundingRect": {
+              "top": 2158,
+              "bottom": 2216,
+              "left": 16,
+              "right": 396,
+              "width": 380,
+              "height": 58
+            },
+            "snippet": "<h4 class=\"usa-footer__primary-link\" onclick=\"\">",
+            "nodeLabel": "Support",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-110-UL",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,13,DIV,0,UL",
+            "selector": "section.wrapper > div.grid > div.cell > ul.list-nb",
+            "boundingRect": {
+              "top": 970,
+              "bottom": 1002,
+              "left": 24,
+              "right": 372,
+              "width": 348,
+              "height": 32
+            },
+            "snippet": "<ul class=\"list-nb pt2\">",
+            "nodeLabel": "Benefit Calculators",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-30-A",
+                  "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,13,DIV,0,UL,0,A",
+                  "selector": "div.grid > div.cell > ul.list-nb > a",
+                  "boundingRect": {
+                    "top": 980,
+                    "bottom": 999,
+                    "left": 24,
+                    "right": 179,
+                    "width": 155,
+                    "height": 19
+                  },
+                  "snippet": "<a href=\"anypia/index.html\">",
+                  "nodeLabel": "Benefit Calculators"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-111-UL",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,27,DIV,0,DIV,0,UL",
+            "selector": "div.grid > div.cell > div.pt2 > ul",
+            "boundingRect": {
+              "top": 1801,
+              "bottom": 1873,
+              "left": 24,
+              "right": 372,
+              "width": 348,
+              "height": 72
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "General information about the actuary's role at SSA, including a site map for t…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-38-A",
+                  "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,27,DIV,0,DIV,0,UL,1,A",
+                  "selector": "div.cell > div.pt2 > ul > a",
+                  "boundingRect": {
+                    "top": 1827,
+                    "bottom": 1870,
+                    "left": 48,
+                    "right": 353,
+                    "width": 305,
+                    "height": 43
+                  },
+                  "snippet": "<a href=\"sitemap.html\">",
+                  "nodeLabel": "site map"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-112-UL",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,31,DIV,0,DIV,0,UL",
+            "selector": "div.grid > div.cell > div.pt2 > ul",
+            "boundingRect": {
+              "top": 1957,
+              "bottom": 2005,
+              "left": 24,
+              "right": 372,
+              "width": 348,
+              "height": 48
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Testimony by the Office of the Chief Actuary Staff",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-113-UL",
+            "path": "1,HTML,1,BODY,9,MAIN,3,SECTION,1,DIV,35,DIV,0,DIV,0,UL",
+            "selector": "div.grid > div.cell > div.pt2 > ul",
+            "boundingRect": {
+              "top": 2089,
+              "bottom": 2137,
+              "left": 24,
+              "right": 372,
+              "width": 348,
+              "height": 48
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Presentations by the Office of the Chief Actuary Staff",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]

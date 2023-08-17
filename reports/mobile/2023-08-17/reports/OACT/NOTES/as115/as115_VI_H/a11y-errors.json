@@ -1,0 +1,779 @@
+[
+  {
+    "id": "definition-list",
+    "title": "`<dl>`'s do not contain only properly-ordered `<dt>` and `<dd>` groups, `<script>`, `<template>` or `<div>` elements.",
+    "description": "When definition lists are not properly marked up, screen readers may produce confusing or inaccurate output. [Learn more](https://web.dev/definition-list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-469-DL",
+            "path": "0,HTML,1,BODY,164,DL",
+            "selector": "body > dl",
+            "boundingRect": {
+              "top": 39756,
+              "bottom": 39804,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 48
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "\nto $632.00 + $41.10 = $673.10.",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-470-DL",
+                  "path": "0,HTML,1,BODY,164,DL,0,DL",
+                  "selector": "body > dl > dl",
+                  "boundingRect": {
+                    "top": 39756,
+                    "bottom": 39804,
+                    "left": 8,
+                    "right": 972,
+                    "width": 964,
+                    "height": 48
+                  },
+                  "snippet": "<dl>",
+                  "nodeLabel": "\nto $632.00 + $41.10 = $673.10."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-470-DL",
+            "path": "0,HTML,1,BODY,164,DL,0,DL",
+            "selector": "body > dl > dl",
+            "boundingRect": {
+              "top": 39756,
+              "bottom": 39804,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 48
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "\nto $632.00 + $41.10 = $673.10.",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-471-DL",
+                  "path": "0,HTML,1,BODY,164,DL,0,DL,0,DL",
+                  "selector": "body > dl > dl > dl",
+                  "boundingRect": {
+                    "top": 39756,
+                    "bottom": 39804,
+                    "left": 8,
+                    "right": 972,
+                    "width": 964,
+                    "height": 48
+                  },
+                  "snippet": "<dl>",
+                  "nodeLabel": "\nto $632.00 + $41.10 = $673.10."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-471-DL",
+            "path": "0,HTML,1,BODY,164,DL,0,DL,0,DL",
+            "selector": "body > dl > dl > dl",
+            "boundingRect": {
+              "top": 39756,
+              "bottom": 39804,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 48
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "\nto $632.00 + $41.10 = $673.10.",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-472-DL",
+                  "path": "0,HTML,1,BODY,164,DL,0,DL,0,DL,0,DL",
+                  "selector": "dl > dl > dl > dl",
+                  "boundingRect": {
+                    "top": 39756,
+                    "bottom": 39804,
+                    "left": 8,
+                    "right": 972,
+                    "width": 964,
+                    "height": 48
+                  },
+                  "snippet": "<dl>",
+                  "nodeLabel": "\nto $632.00 + $41.10 = $673.10."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-472-DL",
+            "path": "0,HTML,1,BODY,164,DL,0,DL,0,DL,0,DL",
+            "selector": "dl > dl > dl > dl",
+            "boundingRect": {
+              "top": 39756,
+              "bottom": 39804,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 48
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "\nto $632.00 + $41.10 = $673.10.",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <dt> or <dd> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-473-DL",
+                  "path": "0,HTML,1,BODY,164,DL,0,DL,0,DL,0,DL,0,DL",
+                  "selector": "dl > dl > dl > dl",
+                  "boundingRect": {
+                    "top": 39756,
+                    "bottom": 39804,
+                    "left": 8,
+                    "right": 972,
+                    "width": 964,
+                    "height": 48
+                  },
+                  "snippet": "<dl>",
+                  "nodeLabel": "\nto $632.00 + $41.10 = $673.10."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-473-DL",
+            "path": "0,HTML,1,BODY,164,DL,0,DL,0,DL,0,DL,0,DL",
+            "selector": "dl > dl > dl > dl",
+            "boundingRect": {
+              "top": 39756,
+              "bottom": 39804,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 48
+            },
+            "snippet": "<dl>",
+            "nodeLabel": "\nto $632.00 + $41.10 = $673.10.",
+            "explanation": "Fix all of the following:\n  When not empty, element does not have at least one <dt> element followed by at least one <dd> element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 5
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-474-H3",
+            "path": "0,HTML,1,BODY,3,H3",
+            "selector": "body > h3.Heading2",
+            "boundingRect": {
+              "top": 352,
+              "bottom": 400,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 48
+            },
+            "snippet": "<h3 class=\"Heading2\">",
+            "nodeLabel": "H. GLOSSARY",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-475-HTML",
+            "path": "0,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 71450,
+              "left": 0,
+              "right": 980,
+              "width": 980,
+              "height": 71450
+            },
+            "snippet": "<html>",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-476-OL",
+            "path": "0,HTML,1,BODY,112,UL,0,LI,1,OL",
+            "selector": "body > ul > li > ol",
+            "boundingRect": {
+              "top": 23510,
+              "bottom": 24711,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 1201
+            },
+            "snippet": "<ol type=\"1\">",
+            "nodeLabel": "Entitlement to a retired worker or disabled worker benefit and to a larger auxi…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-477-OL",
+                  "path": "0,HTML,1,BODY,112,UL,0,LI,1,OL,0,OL",
+                  "selector": "ul > li > ol > ol",
+                  "boundingRect": {
+                    "top": 23510,
+                    "bottom": 24711,
+                    "left": 88,
+                    "right": 972,
+                    "width": 884,
+                    "height": 1201
+                  },
+                  "snippet": "<ol type=\"1\">",
+                  "nodeLabel": "Entitlement to a retired worker or disabled worker benefit and to a larger auxi…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-478-OL",
+            "path": "0,HTML,1,BODY,114,UL,0,LI,1,OL",
+            "selector": "body > ul > li > ol",
+            "boundingRect": {
+              "top": 24898,
+              "bottom": 25426,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 529
+            },
+            "snippet": "<ol type=\"1\">",
+            "nodeLabel": "A retired worker or disabled worker benefit--or to a spouse's and child's benef…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-479-OL",
+                  "path": "0,HTML,1,BODY,114,UL,0,LI,1,OL,0,OL",
+                  "selector": "ul > li > ol > ol",
+                  "boundingRect": {
+                    "top": 24898,
+                    "bottom": 25426,
+                    "left": 88,
+                    "right": 972,
+                    "width": 884,
+                    "height": 529
+                  },
+                  "snippet": "<ol type=\"1\">",
+                  "nodeLabel": "A retired worker or disabled worker benefit--or to a spouse's and child's benef…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-480-OL",
+            "path": "0,HTML,1,BODY,114,UL,1,LI,1,OL",
+            "selector": "body > ul > li > ol",
+            "boundingRect": {
+              "top": 25495,
+              "bottom": 25976,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 480
+            },
+            "snippet": "<ol type=\"1\">",
+            "nodeLabel": "A spouse's and child's benefit--as of a month later than the month in which the…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-481-OL",
+                  "path": "0,HTML,1,BODY,114,UL,1,LI,1,OL,0,OL",
+                  "selector": "ul > li > ol > ol",
+                  "boundingRect": {
+                    "top": 25495,
+                    "bottom": 25976,
+                    "left": 88,
+                    "right": 972,
+                    "width": 884,
+                    "height": 480
+                  },
+                  "snippet": "<ol type=\"1\">",
+                  "nodeLabel": "A spouse's and child's benefit--as of a month later than the month in which the…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-482-OL",
+            "path": "0,HTML,1,BODY,137,UL,0,LI,1,OL",
+            "selector": "body > ul > li > ol",
+            "boundingRect": {
+              "top": 30645,
+              "bottom": 30837,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 193
+            },
+            "snippet": "<ol type=\"1\">",
+            "nodeLabel": "Died,\n\nBecame entitled to retired worker benefits, or\n\nMost recently became ent…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-483-OL",
+                  "path": "0,HTML,1,BODY,137,UL,0,LI,1,OL,0,OL",
+                  "selector": "ul > li > ol > ol",
+                  "boundingRect": {
+                    "top": 30645,
+                    "bottom": 30837,
+                    "left": 88,
+                    "right": 972,
+                    "width": 884,
+                    "height": 193
+                  },
+                  "snippet": "<ol type=\"1\">",
+                  "nodeLabel": "Died,\n\nBecame entitled to retired worker benefits, or\n\nMost recently became ent…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-484-OL",
+            "path": "0,HTML,1,BODY,139,UL,4,LI,1,OL",
+            "selector": "body > ul > li > ol",
+            "boundingRect": {
+              "top": 33370,
+              "bottom": 33947,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 577
+            },
+            "snippet": "<ol type=\"1\">",
+            "nodeLabel": "As a retired worker--has 1 quarter of coverage for each year elapsing after 195…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-485-OL",
+                  "path": "0,HTML,1,BODY,139,UL,4,LI,1,OL,0,OL",
+                  "selector": "ul > li > ol > ol",
+                  "boundingRect": {
+                    "top": 33370,
+                    "bottom": 33947,
+                    "left": 88,
+                    "right": 972,
+                    "width": 884,
+                    "height": 577
+                  },
+                  "snippet": "<ol type=\"1\">",
+                  "nodeLabel": "As a retired worker--has 1 quarter of coverage for each year elapsing after 195…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-486-OL",
+            "path": "0,HTML,1,BODY,162,OL",
+            "selector": "body > ol",
+            "boundingRect": {
+              "top": 39291,
+              "bottom": 39580,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 289
+            },
+            "snippet": "<ol type=\"1\">",
+            "nodeLabel": "Subtract the SMI premium from the monthly benefit amount;\n\nRound the above resu…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-487-OL",
+                  "path": "0,HTML,1,BODY,162,OL,0,OL",
+                  "selector": "body > ol > ol",
+                  "boundingRect": {
+                    "top": 39291,
+                    "bottom": 39580,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 289
+                  },
+                  "snippet": "<ol type=\"1\">",
+                  "nodeLabel": "Subtract the SMI premium from the monthly benefit amount;\n\nRound the above resu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-488-OL",
+            "path": "0,HTML,1,BODY,169,OL",
+            "selector": "body > ol",
+            "boundingRect": {
+              "top": 40134,
+              "bottom": 40375,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 240
+            },
+            "snippet": "<ol type=\"1\">",
+            "nodeLabel": "The deceased worker on whose account the benefit is paid was fully or currently…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-489-OL",
+                  "path": "0,HTML,1,BODY,169,OL,0,OL",
+                  "selector": "body > ol > ol",
+                  "boundingRect": {
+                    "top": 40134,
+                    "bottom": 40375,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 240
+                  },
+                  "snippet": "<ol type=\"1\">",
+                  "nodeLabel": "The deceased worker on whose account the benefit is paid was fully or currently…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-490-OL",
+            "path": "0,HTML,1,BODY,272,UL,0,LI,1,OL",
+            "selector": "body > ul > li > ol",
+            "boundingRect": {
+              "top": 59686,
+              "bottom": 59974,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 288
+            },
+            "snippet": "<ol type=\"1\">",
+            "nodeLabel": "Aged 60 or older or\n\nAged 50-59 and has been disabled throughout a waiting peri…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-491-OL",
+                  "path": "0,HTML,1,BODY,272,UL,0,LI,1,OL,0,OL",
+                  "selector": "ul > li > ol > ol",
+                  "boundingRect": {
+                    "top": 59686,
+                    "bottom": 59974,
+                    "left": 88,
+                    "right": 972,
+                    "width": 884,
+                    "height": 288
+                  },
+                  "snippet": "<ol type=\"1\">",
+                  "nodeLabel": "Aged 60 or older or\n\nAged 50-59 and has been disabled throughout a waiting peri…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-492-OL",
+            "path": "0,HTML,1,BODY,279,UL,0,LI,1,OL",
+            "selector": "body > ul > li > ol",
+            "boundingRect": {
+              "top": 61441,
+              "bottom": 61729,
+              "left": 48,
+              "right": 972,
+              "width": 924,
+              "height": 288
+            },
+            "snippet": "<ol type=\"1\">",
+            "nodeLabel": "Aged 60 or older, or\n\nAged 50-59 and has been disabled throughout a waiting per…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-493-OL",
+                  "path": "0,HTML,1,BODY,279,UL,0,LI,1,OL,0,OL",
+                  "selector": "ul > li > ol > ol",
+                  "boundingRect": {
+                    "top": 61441,
+                    "bottom": 61729,
+                    "left": 88,
+                    "right": 972,
+                    "width": 884,
+                    "height": 288
+                  },
+                  "snippet": "<ol type=\"1\">",
+                  "nodeLabel": "Aged 60 or older, or\n\nAged 50-59 and has been disabled throughout a waiting per…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-494-OL",
+            "path": "0,HTML,1,BODY,296,OL",
+            "selector": "body > ol",
+            "boundingRect": {
+              "top": 68257,
+              "bottom": 68833,
+              "left": 8,
+              "right": 972,
+              "width": 964,
+              "height": 577
+            },
+            "snippet": "<ol type=\"1\">",
+            "nodeLabel": "The average monthly wages used for computing the PIA under the Social Security …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-495-OL",
+                  "path": "0,HTML,1,BODY,296,OL,0,OL",
+                  "selector": "body > ol > ol",
+                  "boundingRect": {
+                    "top": 68257,
+                    "bottom": 68833,
+                    "left": 48,
+                    "right": 972,
+                    "width": 924,
+                    "height": 577
+                  },
+                  "snippet": "<ol type=\"1\">",
+                  "nodeLabel": "The average monthly wages used for computing the PIA under the Social Security …"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 10
+  }
+]
