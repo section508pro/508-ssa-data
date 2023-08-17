@@ -1,0 +1,111 @@
+[
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-92-LI",
+            "path": "1,HTML,1,BODY,1,DIV,1,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,0,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 26,
+              "bottom": 100,
+              "left": 396,
+              "right": 515,
+              "width": 119,
+              "height": 74
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Benefits",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-93-LI",
+            "path": "1,HTML,1,BODY,1,DIV,1,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,1,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 26,
+              "bottom": 100,
+              "left": 515,
+              "right": 642,
+              "width": 126,
+              "height": 74
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Medicare",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-94-LI",
+            "path": "1,HTML,1,BODY,1,DIV,1,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,1,UL,2,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.usa-nav__primary-item",
+            "boundingRect": {
+              "top": 26,
+              "bottom": 100,
+              "left": 642,
+              "right": 810,
+              "width": 169,
+              "height": 74
+            },
+            "snippet": "<li class=\"usa-nav__primary-item\">",
+            "nodeLabel": "Card & record",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-95-LI",
+            "path": "1,HTML,1,BODY,1,DIV,1,SSA-HEADER,a,#document-fragment,2,DIV,1,HEADER,1,DIV,1,NAV,4,UL,0,LI",
+            "selector": "div.usa-nav-container > nav.usa-nav > ul.usa-nav__primary > li.js-sign-in",
+            "boundingRect": {
+              "top": 26,
+              "bottom": 100,
+              "left": 1155,
+              "right": 1259,
+              "width": 104,
+              "height": 74
+            },
+            "snippet": "<li class=\"js-sign-in usa-nav__primary-item\">",
+            "nodeLabel": "Account",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
