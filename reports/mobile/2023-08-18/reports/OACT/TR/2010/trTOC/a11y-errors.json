@@ -1,0 +1,130 @@
+[
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-128-HTML",
+            "path": "1,HTML",
+            "selector": "html",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 2179,
+              "left": 0,
+              "right": 980,
+              "width": 980,
+              "height": 2179
+            },
+            "snippet": "<html>",
+            "nodeLabel": "html",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-129-UL",
+            "path": "1,HTML,2,BODY,6,TABLE,0,TBODY,0,TR,1,TD,4,UL",
+            "selector": "tbody > tr > td > ul",
+            "boundingRect": {
+              "top": 186,
+              "bottom": 2130,
+              "left": 250,
+              "right": 975,
+              "width": 726,
+              "height": 1944
+            },
+            "snippet": "<ul style=\"list-style-type: none;\">",
+            "nodeLabel": "I.\tINTRODUCTION\n \nII.\tOVERVIEW\n\tA.\tHIGHLIGHTS\n\tB.\tTRUST FUND FINANCIAL OPERATIO…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-130-TABLE",
+                  "path": "1,HTML,2,BODY,6,TABLE,0,TBODY,0,TR,1,TD,4,UL,0,TABLE",
+                  "selector": "tr > td > ul > table",
+                  "boundingRect": {
+                    "top": 186,
+                    "bottom": 2130,
+                    "left": 290,
+                    "right": 975,
+                    "width": 686,
+                    "height": 1944
+                  },
+                  "snippet": "<table width=\"100%\" summary=\"formatting table of content\">",
+                  "nodeLabel": "I.\tINTRODUCTION\n \nII.\tOVERVIEW\n\tA.\tHIGHLIGHTS\n\tB.\tTRUST FUND FINANCIAL OPERATIO…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
